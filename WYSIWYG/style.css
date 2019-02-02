@@ -1,0 +1,98 @@
+@font-face {
+  font-family: 'MyWebFont2';
+  src: url('Monument_Valley_1.2-Regular.otf');
+}
+@font-face {
+  font-family: 'MyWebFont3';
+  src: url('Halimun.ttf');
+}
+body{
+  margin: 0;
+  font-size: 18px;
+  color: black;
+  font-family: monospace;
+}
+#topBar{
+  background-color: #c0b0f2;
+  width: 100%
+  padding: 5;
+  height: 80;
+}
+#logo{
+  float: left;
+  margin-left: 50;
+  margin-top: 18;
+  font-size: 35px;%;
+  font-weight: bold;
+  font-family:MyWebFont2;
+}
+#buttonContainer{
+  width: 500;
+  float: right;
+  margin: 0 auto;
+}
+.button{
+  margin-top: 15;
+  float: left;
+  border-right: none;
+  font-size: 20;
+  padding: 8;
+  background-color: white;
+  height: 40;
+
+  font-family:MyWebFont2;
+  font-weight: bold;
+  margin-left: 10;
+  width: 100;
+  height: 50;
+  outline: 0;
+}
+#html{}
+#css{}
+#js{}
+#output{}
+
+.selectedButton{
+  background-color: #5540ef;
+}
+.hoveredOverButton{
+  background-color: white;
+}
+.codePanel{
+  float: left;
+}
+textarea{
+  padding-top: 20px;
+  padding-left: 5px;
+  resize: none;
+  font-size: 18px;
+  color: #8562f7;
+  font-family: monospace;
+  background-color: black;
+}
+.hidden{
+  display: none;
+}
+
+#htmlCodePanel{
+  border-top: none;
+  border-left: none;
+  border-bottom: none;
+  border-color: grey;
+}
+#cssCodePanel{
+  border-top: none;
+  border-left: none;
+  border-bottom: none;
+  border-color: grey;
+}
+#jsCodePanel{
+  border-top: none;
+  border-left: none;
+  border-bottom: none;
+  border-color: grey;
+}
+#outputCodePanel{
+  border: none;
+  padding-left: 10;
+}

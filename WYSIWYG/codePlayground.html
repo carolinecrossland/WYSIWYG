@@ -1,0 +1,37 @@
+<html>
+
+  <head>
+    <title>Code Playground</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="jQuery.js"></script>
+
+  </head>
+
+  <body>
+
+    <div id="topBar">
+      <div id="logo">
+        WYSIWYG Playground
+      </div>
+
+      <div id="buttonContainer">
+          <button class="button selectedButton" id="html">HTML</button>
+          <button class="button" id="css">CSS</button>
+          <button class="button" id="js">JavaScript</button>
+          <button class="button selectedButton" id="output">Output</button>
+      </div>
+    </div>
+
+      <div class = bodyContainer>
+          <textarea class = "codePanel" id="htmlCodePanel"><p>Hello World!</p></textarea>
+          <textarea class = "codePanel hidden" id="cssCodePanel"></textarea>
+          <textarea class = "codePanel hidden" id="jsCodePanel"></textarea>
+          <iframe class = "codePanel" id = "outputCodePanel"></iframe>
+      </div>
+
+    </div>
+
+  </body>
+
+<script type="text/javascript" src="script.js"></script>
+</html>
